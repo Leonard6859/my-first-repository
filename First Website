@@ -1,0 +1,167 @@
+File has been saved to: https://www.w3schools.com/code/tryit.asp?filename=GV73PME27TGP
+
+ <!DOCTYPE html>
+  <html>
+  
+    
+    <header>
+    <style>
+
+body {
+
+  background-color: white;
+
+  text-align: center;
+
+  color: black;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+</style>
+      <h1>Company Order Form</h1>
+      <tr>
+      <figure>
+        <img src="https://m.media-amazon.com/images/I/41oWfBaQSTL._AC_SX466_.jpg"/>
+        <figcaption>Safe and Fast Shipping</figcaption>
+      </figure>
+      <audio>
+        <source src="" type="audio/mp3">
+      </audio>
+    </header>
+    <hr>
+    <table border="1">
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Items Shipped</th>
+      <th scope="col">Number of Items Shipped</th>
+    </tr>
+    <tr>
+      <td>Lucas Ellis</td>
+      <td>Rubik's Cube</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Leonard Ellis</td>
+      <td>Transformers</td>
+      <td>7</td>
+    </tr>
+   </table>
+   <hr>
+   <form action="/example.html" method="POST">
+       <h2>Log in to Order</h2>
+       <label for="Username">Enter Your Username</label>
+       <br>
+       <input type="text" name="username" id="username">
+       <hr>
+       <label for="user-password">Enter Your Password</label>
+       <br>
+       <input type="password" name="user-password" id="user-password">
+       <hr>
+     <section class="submission">
+        <form>
+           <input type="submit" value="Log In">
+        </form>
+     </section>
+     <h2>Enter Order Details</h2>
+     <section class="name">
+      <label for="fullname">Enter First and Last Name</label>
+      <input type="text" name="fullname" id="fullname"></input>
+     </section>
+     <hr>
+     <section class="items">
+      <label for="itemsshipped">Enter the Item Shipped</label>
+      <input type="text" name="itemsshipped" id="itemsshipped"></input>
+     </section>
+     <hr>
+     <section class="itemnumber">
+       <label for="amount">Number of Items Shipped</label>
+       <input id="amount" name="amount" type="number" step="1">
+     </section>
+     <hr>
+     <section class="order">
+       <label for="status">Order Status</label>
+       <br>
+       <span>Unfilled</span>
+       <input id="status" name="status" type="range" min="0" max="2" step="1">
+       <span>Filled</span>
+      </section>
+      <hr>
+      <p>Day of the Week to Complete</p>
+      <label for="monday">Monday</label>
+      <input id="monday" name="weekday" type="checkbox" value="monday">
+      <br>
+       <label for="tuesday">Tuesday</label>
+       <input id="tuesday" name="weekday" type="checkbox" value="tuesday">
+      <br>
+       <label for="wednesday">Wednesday</label>
+       <input id="wednesday" name="weekday" type="checkbox" value="wednesday">
+      <br>
+       <label for="thursday">Thursday</label>
+       <input id="thursday" name="weekday" type="checkbox" value="thursday">
+      <br>
+       <label for="friday">Friday</label>
+       <input id="friday" name="weekday" type="checkbox" value="friday">
+      </section>
+      <hr>
+     <span>Order Complete</span>
+      
+     <section class="shipped">
+         <input type="radio" id="yes" name="answer" value="yes">
+         <label for="yes">Yes</label>
+         <br>
+         <input type="radio" id="no" name="answer" value="yes">
+         <label for="no">No</label>
+     </section>
+     <hr>
+     <section class="dayscomplete">
+       <label for="dayscomplete">Days Until Complete</label>
+       <select id="dayscomplete" name="dayscomplete">
+       <option value="one">1</option>
+       <option value="two">2</option>
+       <option value="three">3</option>
+       <option value="four">4</option>
+       <option value="five">5+</option>
+       </select>
+     </section>
+     <hr>
+     <section class="address">
+     <label for="address">Cities to Send to</label>
+     <input type="text" list="cities" id="city" name="city">
+ 
+      <datalist id="cities">
+       <option value="Denver"></option>
+       <option value="Cheyenne"></option>
+       <option value="Casper"></option>
+       <option value="Salt Lake City"></option>
+       <option value="Omaha"></option>
+       <option value="Other"></option>  
+      </datalist>
+     </section>
+     <hr>
+     <section class="extra-info">
+        
+     <hr>
+     <section class="extra-info">
+        <label for="extra">Extra Order Information</label>
+        <br>
+        <textarea id="extra" name="extra" rows="5" cols="30">
+        </textarea>
+     </section>
+     <hr>
+     <section class="submission">
+        <form>
+           <input type="submit" value="Submit">
+        </form>
+     </section>
+     <video src="https://www.careeronestop.org/Videos/careeronestop-videos.aspx?videocode=43507100" controls>Video not supported</video>
+     <hr>
+     <iframe src="https://giphy.com/embed/W4biagbLdE3lbYf0jH" width="480" height="480" frameBorder="1" class="giphy-embed" allowFullScreen>
+     </iframe>
+      
+    
+     
+   </form>
+
+</html>
